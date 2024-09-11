@@ -13,16 +13,23 @@
 
     &::before {
       content: "";
-      
+
       inset: 0;
       top: 50%;
       position: absolute;
 
-      background-image: linear-gradient(
-        180deg,
-        transparent 0%,
-        #020614 100%
-      );
+      background-image: linear-gradient(180deg, transparent 0%, #020614 100%);
+    }
+
+    figcaption {
+      position: absolute;
+      bottom: 0;
+
+      padding: 24px;
+
+      h2 {
+        margin-top: 8px;
+      }
     }
   }
 }
